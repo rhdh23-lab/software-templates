@@ -2,8 +2,6 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: {{ .Values.app.name }}-pipeline-run-job
-  annotations:
-    argocd.argoproj.io/sync-wave: "5"
 spec:
   selector: {}
   template:
