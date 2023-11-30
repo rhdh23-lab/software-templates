@@ -23,7 +23,7 @@ spec:
         githubOrg:
           title: GitHub Organization
           type: string
-          default: WindTurbineInc
+          default: rhdh23-lab
         description:
           title: Description
           type: string
@@ -38,7 +38,7 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster
-          default: .apps.wearedevs.rl97.p1.openshiftapps.com
+          default: .apps.rosa-m9x67.dusy.p1.openshiftapps.com
         namespace: 
           title: Namespace
           type: string
